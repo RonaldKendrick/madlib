@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<!--
+This page makes a Mad Lib story. For an example of a similar page, go here:
+
+http://www.redkid.net/madlibs/
+-->
+
+<html>
+<head>
+<title>My MadLib</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+
+<h1>My MadLib</h1>
+
+<div class="data">
+
+    <p class="instructions">
+      Enter a value into each field. Then click 'Make Story' to read a funny story.
+    </p>
+
+    <form>
+
+      Enter a noun <br> <input type="text" id='noun1'> <br><br>
+      Enter a noun <br> <input type="text" id='noun2'> <br><br>
+      Enter a noun <br> <input type="text" id='noun3'> <br><br>
+
+      Enter an Italian Word <input type="text" id='italianword1'> <br><br>
+
+      Enter a city <br> <input type="text" id='city1'> <br><br>
+
+      Enter an occupation <input type="text" id='occupation1'> <br><br>
+
+      Enter a past tense verb <input type="text" id='pasttense1'> <br><br>
+
+      Enter a plural noun <input type="text" id='pluralnoun1'> <br><br>
+      Enter a plural noun <input type="text" id='pluralnoun2'> <br><br>
+      Enter a plural noun <input type="text" id='pluralnoun3'> <br><br>
+      Enter a plural noun <input type="text" id='pluralnoun4'> <br><br>
+
+
+
+      Enter an adjective <br> <input type="text" id='adjective1'> <br><br>
+      Enter an adjective <br> <input type="text" id='adjective2'> <br><br>
+      Enter an adjective <br> <input type="text" id='adjective3'> <br><br>
+      Enter an adjective <br> <input type="text" id='adjective4'> <br><br>
+      Enter an adjective <br> <input type="text" id='adjective5'> <br><br>
+
+
+
+
+
+
+    <input type="button" onclick="makeStory()" value="Make Story">
+
+    </form>
+
+</div>
+
+<div class="story">
+    <h2 id="title">
+      Napoleon
+    </h2>
+
+    <p id="one">
+
+    </p>
+
+</div>
+
+<script src="story_maker.js"></script>
+
+</body>
+</html>
